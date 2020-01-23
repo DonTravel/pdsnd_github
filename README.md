@@ -6,7 +6,7 @@ README - created 01/23/2020
 Explore US Biekeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Calculate statistics and build an environment where a user chooses the data and filter for a dataset to analyze.
 
 ### Files used
 Include the files used
