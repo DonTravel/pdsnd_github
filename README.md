@@ -1,8 +1,9 @@
 ### Date created
-Include the date you created this project and README file.
+bikeshare_final.py - created 01/21/2020
+README - created 01/23/2020
 
 ### Project Title
-Replace the Project Title
+Explore US Biekeshare Data
 
 ### Description
 Describe what your project is about and what it does
