@@ -12,7 +12,7 @@ month_DATA = {'january' : 1, 'february' : 2, 'march' : 3, 'april' : 4, 'may' : 5
 day_DATA = {'monday' : 0, 'tuesday' : 1, 'wednesday' : 2, 'thursday' : 3, 'friday' : 4, 'saturday' : 5, 'sunday' : 6, 'all' : 7 }
 
 
-# functions
+# file functions
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -124,7 +124,7 @@ def load_data(city, month, day):
                 
     return df
 
-
+# analytic functions
 # time statistics
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
