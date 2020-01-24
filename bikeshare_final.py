@@ -61,8 +61,7 @@ def get_filters():
     day_input = input().lower()
         
     while day_input not in day_DATA:
-        print('Invalid input for day, please fill in correct input!')
-        day_input = input().lower()
+        day_input = input('Invalid input for day, please fill in correct input!').lower()
         
     day = day_input
     print('-'*40)
