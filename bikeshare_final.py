@@ -40,8 +40,8 @@ def get_filters():
     
     # input: month
     print('\nWould you like to filter the data by month?')
-    print('Please type in "January", "February", "March", "April", "May", "June" or "All" for no filter.')
-    month_input = input().lower()
+    month_input = input('Please type in "January", "February", "March", "April", "May", "June" or "All" for no filter.').lower()
+	
     
     
     while month_input not in month_DATA:
