@@ -12,7 +12,7 @@ month_DATA = {'january' : 1, 'february' : 2, 'march' : 3, 'april' : 4, 'may' : 5
 day_DATA = {'monday' : 0, 'tuesday' : 1, 'wednesday' : 2, 'thursday' : 3, 'friday' : 4, 'saturday' : 5, 'sunday' : 6, 'all' : 7 }
 
 
-# functions
+# file functions
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -40,8 +40,8 @@ def get_filters():
     
     # input: month
     print('\nWould you like to filter the data by month?')
-    print('Please type in "January", "February", "March", "April", "May", "June" or "All" for no filter.')
-    month_input = input().lower()
+    month_input = input('Please type in "January", "February", "March", "April", "May", "June" or "All" for no filter.').lower()
+	
     
     
     while month_input not in month_DATA:
@@ -61,8 +61,7 @@ def get_filters():
     day_input = input().lower()
         
     while day_input not in day_DATA:
-        print('Invalid input for day, please fill in correct input!')
-        day_input = input().lower()
+        day_input = input('Invalid input for day, please fill in correct input!').lower()
         
     day = day_input
     print('-'*40)
@@ -124,7 +123,7 @@ def load_data(city, month, day):
                 
     return df
 
-
+# analytic functions
 # time statistics
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
